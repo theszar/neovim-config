@@ -1,5 +1,6 @@
 require("theszar.options")
 require("theszar.keymaps")
+require("theszar.autocmd")
 
 require("theszar.packer")
 require("theszar.plugins.lsp")
