@@ -16,6 +16,8 @@ vim.keymap.set("n", "<A-Down>", "<cmd>resize -2<cr>", { desc = "Decrease window 
 vim.keymap.set("n", "<A-Left>", "<cmd>vertical resize -2<cr>", { desc = "Decrease window width" })
 vim.keymap.set("n", "<A-Right>", "<cmd>vertical resize +2<cr>", { desc = "Increase window width" })
 
+vim.keymap.set("t", "<A-Up>", "<cmd>resize +2<cr>", { desc = "Increase window height" })
+vim.keymap.set("t", "<A-Down>", "<cmd>resize -2<cr>", { desc = "Decrease window height" })
 -- Move Lines
 vim.keymap.set("n", "<C-S-j>", "<cmd>m .+1<cr>==", { desc = "Move down" })
 vim.keymap.set("n", "<C-S-k>", "<cmd>m .-2<cr>==", { desc = "Move up" })
