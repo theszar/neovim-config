@@ -45,3 +45,6 @@ vim.keymap.set("n", "<localleader>r", ":set rnu!<CR>", {silent=true})
 -- C++ switch between header and cpp file 
 --vim.keymap.set("n", "<tab>", ":ClangdSwitchSourceHeader<CR>",{silent = true})
 
+vim.keymap.set("n", "<leader>1", ":vsp<CR>", {silent=true})
+vim.keymap.set("n", "<leader>2", ":sp<CR>", {silent=true})
+vim.keymap.set("n", "<leader>wq", ":q<CR>", {silent=true})

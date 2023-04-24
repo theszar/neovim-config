@@ -1,3 +1,5 @@
 vim.keymap.set("n", "<leader>h", ":ClangdSwitchSourceHeader<CR>", {silent=true})
 
-vim.keymap.set("n", "<F5>", ":TermExec cmd='./build.sh'<CR>")
+vim.opt.makeprg = "./build.sh"
+vim.keymap.set("n", "<localleader>m", ":make<CR>")
+vim.keymap.set("n", "<localleader>e", ":copen<CR>")
