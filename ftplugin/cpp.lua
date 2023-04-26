@@ -8,4 +8,4 @@ vim.keymap.set("n", "<F5>", ":TermExec cmd='./build.sh'<CR>")
 -- end)
 vim.opt.makeprg = "./build.sh"
 vim.keymap.set("n", "<localleader>m", ":make<CR>")
-vim.keymap.set("n", "<localleader>e", ":copen<CR>")
+vim.keymap.set("n", "<localleader>e", ":cw<CR>")

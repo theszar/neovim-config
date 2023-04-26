@@ -1,7 +1,7 @@
 require("toggleterm").setup{
   -- size can be a number or function which is passed the current terminal
   size = 15,
-  open_mapping = [[<leader>t]],
+  open_mapping = [[<localleader>t]],
   hide_numbers = true, -- hide the number column in toggleterm buffers
   shade_filetypes = {},
   autochdir = false, -- when neovim changes it current directory the terminal will change it's own when next it's opened
